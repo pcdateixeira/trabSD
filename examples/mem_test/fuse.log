@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o X:/Downloads/mem_test/tb_mem_test_isim_beh.exe -prj X:/Downloads/mem_test/tb_mem_test_beh.prj work.tb_mem_test 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "X:/Downloads/mem_test/ipcore_dir/bram.vhd" into library work
+Parsing VHDL file "X:/Downloads/mem_test/mem_test.vhd" into library work
+Parsing VHDL file "X:/Downloads/mem_test/tb_mem_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 125240 KB
+Fuse CPU Usage: 358 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity mem_test [mem_test_default]
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture bram_a of entity bram [bram_default]
+Compiling architecture behavior of entity tb_mem_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable X:/Downloads/mem_test/tb_mem_test_isim_beh.exe
+Fuse Memory Usage: 168296 KB
+Fuse CPU Usage: 1122 ms

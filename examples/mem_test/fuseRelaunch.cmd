@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "X:/Downloads/mem_test/tb_mem_test_isim_beh.exe" -prj "X:/Downloads/mem_test/tb_mem_test_beh.prj" "work.tb_mem_test" 

@@ -1,0 +1,203 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml mem_test.twx mem_test.ncd -o mem_test.twr mem_test.pcf
+
+Design file:              mem_test.ncd
+Physical constraint file: mem_test.pcf
+Device,package,speed:     xc3s100e,vq100,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+opA<0>         |result<0>      |    9.243|
+opA<0>         |result<1>      |   10.302|
+opA<0>         |result<2>      |   10.752|
+opA<0>         |result<3>      |   11.156|
+opA<0>         |result<4>      |   10.898|
+opA<0>         |result<5>      |   11.330|
+opA<0>         |result<6>      |   11.079|
+opA<0>         |result<7>      |   11.412|
+opA<1>         |result<1>      |    9.839|
+opA<1>         |result<2>      |   10.577|
+opA<1>         |result<3>      |   11.292|
+opA<1>         |result<4>      |   11.488|
+opA<1>         |result<5>      |   11.920|
+opA<1>         |result<6>      |   11.855|
+opA<1>         |result<7>      |   12.188|
+opA<2>         |result<2>      |    9.333|
+opA<2>         |result<3>      |   10.854|
+opA<2>         |result<4>      |   11.065|
+opA<2>         |result<5>      |   11.648|
+opA<2>         |result<6>      |   11.634|
+opA<2>         |result<7>      |   11.967|
+opA<3>         |result<3>      |    9.726|
+opA<3>         |result<4>      |   10.197|
+opA<3>         |result<5>      |   10.780|
+opA<3>         |result<6>      |   10.852|
+opA<3>         |result<7>      |   11.185|
+opA<4>         |result<4>      |    9.321|
+opA<4>         |result<5>      |   10.509|
+opA<4>         |result<6>      |   10.712|
+opA<4>         |result<7>      |   11.161|
+opA<5>         |result<5>      |    8.792|
+opA<5>         |result<6>      |    9.401|
+opA<5>         |result<7>      |   10.045|
+opA<6>         |result<6>      |    8.855|
+opA<6>         |result<7>      |    9.893|
+opA<7>         |result<7>      |    9.236|
+opB<0>         |result<0>      |    8.631|
+opB<0>         |result<1>      |    9.690|
+opB<0>         |result<2>      |   10.140|
+opB<0>         |result<3>      |   10.544|
+opB<0>         |result<4>      |   10.286|
+opB<0>         |result<5>      |   10.718|
+opB<0>         |result<6>      |   10.467|
+opB<0>         |result<7>      |   10.800|
+opB<1>         |result<1>      |    9.268|
+opB<1>         |result<2>      |   10.306|
+opB<1>         |result<3>      |   11.021|
+opB<1>         |result<4>      |   11.217|
+opB<1>         |result<5>      |   11.649|
+opB<1>         |result<6>      |   11.584|
+opB<1>         |result<7>      |   11.917|
+opB<2>         |result<2>      |    9.320|
+opB<2>         |result<3>      |   11.021|
+opB<2>         |result<4>      |   11.232|
+opB<2>         |result<5>      |   11.815|
+opB<2>         |result<6>      |   11.801|
+opB<2>         |result<7>      |   12.134|
+opB<3>         |result<3>      |    9.401|
+opB<3>         |result<4>      |   10.657|
+opB<3>         |result<5>      |   11.240|
+opB<3>         |result<6>      |   11.312|
+opB<3>         |result<7>      |   11.645|
+opB<4>         |result<4>      |    9.688|
+opB<4>         |result<5>      |   11.220|
+opB<4>         |result<6>      |   11.423|
+opB<4>         |result<7>      |   11.872|
+opB<5>         |result<5>      |    9.226|
+opB<5>         |result<6>      |   10.348|
+opB<5>         |result<7>      |   10.992|
+opB<6>         |result<6>      |    8.798|
+opB<6>         |result<7>      |    9.677|
+opB<7>         |result<7>      |    9.166|
+opC<0>         |result<0>      |    8.694|
+opC<0>         |result<1>      |    9.602|
+opC<0>         |result<2>      |   10.052|
+opC<0>         |result<3>      |   10.456|
+opC<0>         |result<4>      |   10.198|
+opC<0>         |result<5>      |   10.630|
+opC<0>         |result<6>      |   10.379|
+opC<0>         |result<7>      |   10.712|
+opC<1>         |result<1>      |    9.039|
+opC<1>         |result<2>      |    9.489|
+opC<1>         |result<3>      |   10.041|
+opC<1>         |result<4>      |   10.237|
+opC<1>         |result<5>      |   10.669|
+opC<1>         |result<6>      |   10.604|
+opC<1>         |result<7>      |   10.937|
+opC<2>         |result<2>      |    9.144|
+opC<2>         |result<3>      |    9.859|
+opC<2>         |result<4>      |   10.055|
+opC<2>         |result<5>      |   10.487|
+opC<2>         |result<6>      |   10.422|
+opC<2>         |result<7>      |   10.755|
+opC<3>         |result<3>      |    9.459|
+opC<3>         |result<4>      |    9.800|
+opC<3>         |result<5>      |   10.383|
+opC<3>         |result<6>      |   10.455|
+opC<3>         |result<7>      |   10.788|
+opC<4>         |result<4>      |    9.225|
+opC<4>         |result<5>      |   10.567|
+opC<4>         |result<6>      |   10.770|
+opC<4>         |result<7>      |   11.219|
+opC<5>         |result<5>      |    9.485|
+opC<5>         |result<6>      |   10.329|
+opC<5>         |result<7>      |   10.973|
+opC<6>         |result<6>      |    8.932|
+opC<6>         |result<7>      |   10.010|
+opC<7>         |result<7>      |    9.695|
+opD<0>         |result<0>      |    6.677|
+opD<0>         |result<1>      |    7.182|
+opD<0>         |result<2>      |    7.415|
+opD<0>         |result<3>      |    7.819|
+opD<0>         |result<4>      |    7.561|
+opD<0>         |result<5>      |    7.993|
+opD<0>         |result<6>      |    7.742|
+opD<0>         |result<7>      |    8.075|
+opD<1>         |result<1>      |    6.854|
+opD<1>         |result<2>      |    7.304|
+opD<1>         |result<3>      |    7.708|
+opD<1>         |result<4>      |    7.450|
+opD<1>         |result<5>      |    7.882|
+opD<1>         |result<6>      |    7.631|
+opD<1>         |result<7>      |    7.964|
+opD<2>         |result<2>      |    7.062|
+opD<2>         |result<3>      |    7.617|
+opD<2>         |result<4>      |    7.596|
+opD<2>         |result<5>      |    8.028|
+opD<2>         |result<6>      |    7.777|
+opD<2>         |result<7>      |    8.110|
+opD<3>         |result<3>      |    7.524|
+opD<3>         |result<4>      |    7.720|
+opD<3>         |result<5>      |    8.152|
+opD<3>         |result<6>      |    7.901|
+opD<3>         |result<7>      |    8.234|
+opD<4>         |result<4>      |    6.650|
+opD<4>         |result<5>      |    7.233|
+opD<4>         |result<6>      |    7.219|
+opD<4>         |result<7>      |    7.552|
+opD<5>         |result<5>      |    6.655|
+opD<5>         |result<6>      |    6.858|
+opD<5>         |result<7>      |    7.191|
+opD<6>         |result<6>      |    6.538|
+opD<6>         |result<7>      |    7.022|
+opD<7>         |result<7>      |    6.667|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Dec 17 14:57:18 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 126 MB
+
+
+

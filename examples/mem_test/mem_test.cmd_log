@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "X:/Downloads/mem_test/mem_test.xst" -ofn "X:/Downloads/mem_test/mem_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 mem_test.ngc mem_test.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o mem_test_map.ncd mem_test.ngd mem_test.pcf 
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o mem_test_map.ncd mem_test.ngd mem_test.pcf 
+xst -intstyle ise -ifn "X:/Downloads/mem_test/mem_test.xst" -ofn "X:/Downloads/mem_test/mem_test.syr" 
+xst -intstyle ise -ifn "X:/Downloads/mem_test/mem_test.xst" -ofn "X:/Downloads/mem_test/mem_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 mem_test.ngc mem_test.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o mem_test_map.ncd mem_test.ngd mem_test.pcf 
+par -w -intstyle ise -ol high -t 1 mem_test_map.ncd mem_test.ncd mem_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mem_test.twx mem_test.ncd -o mem_test.twr mem_test.pcf 
+xst -intstyle ise -ifn "X:/Downloads/mem_test/mem_test.xst" -ofn "X:/Downloads/mem_test/mem_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 mem_test.ngc mem_test.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o mem_test_map.ncd mem_test.ngd mem_test.pcf 
+par -w -intstyle ise -ol high -t 1 mem_test_map.ncd mem_test.ncd mem_test.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mem_test.twx mem_test.ncd -o mem_test.twr mem_test.pcf 
