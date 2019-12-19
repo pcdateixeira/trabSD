@@ -1,0 +1,5 @@
+set -tmpdir "D:/Documentos/GitHub/trabSD/vhdl/xst/projnav.tmp"
+set -xsthdpdir "D:/Documentos/GitHub/trabSD/vhdl/xst"
+elaborate
+-ifn trabSD.prj
+-ifmt mixed

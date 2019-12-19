@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Documentos/GitHub/trabSD/vhdl/tb_trabSD_isim_par.exe" -prj "D:/Documentos/GitHub/trabSD/vhdl/tb_trabSD_par.prj" "work.tb_trabSD" 
