@@ -1,0 +1,6 @@
+vhdl work "ipcore_dir/mem_entrada.vhd"
+vhdl work "ipcore_dir/mem_peso.vhd"
+vhdl work "ipcore_dir/mem_mascara.vhd"
+vhdl work "ipcore_dir/mem_saida.vhd"
+vhdl work "trabSD.vhd"
+vhdl work "tb_trabSD.vhd"

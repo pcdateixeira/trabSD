@@ -1,0 +1,12 @@
+ISim log file
+Running: D:\Documentos\GitHub\trabSD\vhdl\tb_trabSD_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Documentos/GitHub/trabSD/vhdl/tb_trabSD_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 450 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/tb_trabsd/BRAM_SAIDA/U0/native_mem_module/mem_module/).
+# run 13.00us

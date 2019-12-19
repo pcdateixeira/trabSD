@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/par/trabSD_timesim.vhd"
+vhdl isim_temp "tb_trabSD.vhd"

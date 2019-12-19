@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Documentos\GitHub\trabSD\vhdl\trabSD.ncd
+OUTFILE=D:\Documentos\GitHub\trabSD\vhdl\trabSD.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5vq100
+WORKINGDIR=D:\Documentos\GitHub\trabSD\vhdl
+LICENSE=ISE
+USER_INFO=211828850_0_0_966

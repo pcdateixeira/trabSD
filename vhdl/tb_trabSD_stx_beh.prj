@@ -1,0 +1,6 @@
+vhdl isim_temp "ipcore_dir/mem_entrada.vhd"
+vhdl isim_temp "ipcore_dir/mem_peso.vhd"
+vhdl isim_temp "ipcore_dir/mem_mascara.vhd"
+vhdl isim_temp "ipcore_dir/mem_saida.vhd"
+vhdl isim_temp "trabSD.vhd"
+vhdl isim_temp "tb_trabSD.vhd"

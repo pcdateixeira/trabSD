@@ -1,0 +1,28 @@
+Command line:
+   tb_trabSD_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50467
+
+Thu Dec 19 00:25:48 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5164.03 Meg
+
+ Total Signals          : 919
+ Total Nets             : 2607
+ Total Signal Drivers   : 280
+ Total Blocks           : 56
+ Total Primitive Blocks : 27
+ Total Processes        : 168
+ Total Traceable Variables  : 870
+ Total Scalar Nets and Variables : 5503
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5006.75 Meg
+
+Thu Dec 19 00:27:33 2019
+
